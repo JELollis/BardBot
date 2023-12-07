@@ -7,7 +7,7 @@ from google.cloud import language_v1
 
 # Set your API keys
 google_cloud_api_key = "Insert_Your_Bard_API_Key"
-bot_token = "MTE4MjAwMjc5Njc3NDU2MzkyMg.Gw5DQh.q8qlXtDRq6fhCV71AcaxCndbdtOxT2Mkqs0nOU"
+bot_token = "Insert_Your_Discord_Bot_Token"
 target_project_id = "Insert_Your_Bard_Project_ID"
 
 # Initialize the Discord bot with intents and commands extension
