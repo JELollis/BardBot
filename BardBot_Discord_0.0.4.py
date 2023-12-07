@@ -7,9 +7,9 @@ from google.oauth2 import service_account
 
 # Set your API keys
 google_cloud_api_key_path = "bardbot.json"
-bot_token = "MTE4MjAwMjc5Njc3NDU2MzkyMg.GgB6Y8.dnLt_mV31xiNadp7qHHzeGWhb9QTuZ8LCOv_A0"
-target_project_id = "bardbot-407318"
-google_bard_api_key = "AIzaSyA0-MwEO8HxXoxxWyl8GdEDGGE-zPJ4-SU"
+bot_token = ""
+target_project_id = ""
+google_bard_api_key = ""
 
 # Initialize the Google Cloud Natural Language API client
 credentials = service_account.Credentials.from_service_account_file(google_cloud_api_key_path)
