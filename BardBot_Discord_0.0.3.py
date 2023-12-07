@@ -1,19 +1,18 @@
 import discord
 import google.cloud
 import requests
-import os
 import json
 
 from discord.ext import commands
 from google.cloud import language_v1
 
 # Set your API keys
-google_cloud_api_key_path = os.path.join(os.path.dirname(__file__), "bardbot.json")
-bot_token = "Insert_Bot_Token"
-target_project_id = "Insert_Project_ID"
-google_bard_api_key = "Insert_Bard_API_Key"
+google_cloud_api_key_path = "bardbot.json"
+bot_token = "MTE4MjAwMjc5Njc3NDU2MzkyMg.GG_6Ve.1hnvI-ebvXOc69s9PL8e-MWzJJU2eBdu2K2GOk"
+target_project_id = "bardbot-407318"
+google_bard_api_key = "AIzaSyA0-MwEO8HxXoxxWyl8GdEDGGE-zPJ4-SU"
 
-# Load the service account JSON file content
+# Load the service account credentials from the JSON file
 with open(google_cloud_api_key_path, 'r') as f:
     credentials = json.load(f)
 
