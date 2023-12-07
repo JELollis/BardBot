@@ -8,9 +8,9 @@ from google.cloud import language_v1
 
 # Set your API keys
 google_cloud_api_key_path = "bardbot.json"
-bot_token = "MTE4MjAwMjc5Njc3NDU2MzkyMg.GG_6Ve.1hnvI-ebvXOc69s9PL8e-MWzJJU2eBdu2K2GOk"
-target_project_id = "bardbot-407318"
-google_bard_api_key = "AIzaSyA0-MwEO8HxXoxxWyl8GdEDGGE-zPJ4-SU"
+bot_token = ""
+target_project_id = ""
+google_bard_api_key = ""
 
 # Load the service account credentials from the JSON file
 with open(google_cloud_api_key_path, 'r') as f:
