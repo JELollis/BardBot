@@ -9,3 +9,4 @@ As this is an alpha version, I will attempt to update this with each new update 
 12-6-2023 Version 0.0.1 - Currently, the project is in an alpha stage and does not function. The imports for the script fail to run and generates several errors as ntoed in the Issues section. 
 12-7-2023 Version 0.0.2 - Corrected imports. The requests and api connection strings are now giving errors. 
 12-7-2023 Version 0.0.3 - First running script. Issue exists with connecting to Google Cloud Natural Language API. Added need for bardbot.json file to connect, but script is not calling the .json file properly resulting in http error 401.
+05/20/2024 Version 0.0.4 - Making updates to new API version for Google cloud Natural Languate API. 
