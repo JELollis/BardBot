@@ -8,7 +8,7 @@ from google.cloud import language_v1
 
 # Set your API keys (still required for Google Cloud Natural Language API)
 google_cloud_api_key_path = "bardbot.json"
-bot_token = "MTI0MjEzOTc2MDM3MDI1Nzk3MA.GYvlAS.fJvnRZ07svD-Ii-LI6VGWmrmrNQlEHQD5E1YEg"
+bot_token = "discord_bardbot.json"
 #target_project_id = ""
 
 # Load the service account credentials from the JSON file
